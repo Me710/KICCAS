@@ -1,0 +1,2 @@
+gcc intro.c fonction.c main.c option.c gfxutils.c quitter.c -o game -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+
