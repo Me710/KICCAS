@@ -121,7 +121,7 @@ else
 
 void updatePerso(Personne *p)
 {
-        if(p->collision == 5)
+        if(p->collision == 30)
         {
             p->vie++;
             p->collision=0;

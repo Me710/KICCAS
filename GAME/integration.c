@@ -99,7 +99,7 @@ void ecran_Jeu()
     	if(p.etat_vie==0)
     	{
     		SDL_FillRect(screengame, NULL, SDL_MapRGB(screengame->format, 0, 0, 0));
-           //reponse=afficherenigme(En,screengame);
+           reponse=afficherenigme(En,screengame);
            SDL_Flip(screengame);
     	}
     	if(reponse==0)
